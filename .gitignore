@@ -1,0 +1,55 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Local vector stores
+chroma_db/
+faiss_index/
+
+# Uploaded files
+uploads/
+uploaded_pdfs/
+data/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Streamlit cache
+.streamlit/secrets.toml
